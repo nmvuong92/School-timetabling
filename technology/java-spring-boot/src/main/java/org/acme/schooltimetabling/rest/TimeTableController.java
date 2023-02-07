@@ -42,6 +42,8 @@ public class TimeTableController {
                 timeTableRepository::save);
     }
 
+
+
     public SolverStatus getSolverStatus() {
         return solverManager.getSolverStatus(TimeTableRepository.SINGLETON_TIME_TABLE_ID);
     }
